@@ -1,0 +1,12 @@
+# terraform
+
+
+VPC
+  PUBLIC SUBNETS
+  PRIVATE SUBNETS
+  SG
+  
+ EC2 INSTANCES
+ 
+ NLB
+ 
