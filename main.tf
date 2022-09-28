@@ -36,11 +36,10 @@ locals {
 
 module "TGW" {
   source  = "./modules/TGW"
-  subnet_ids = module.vpc.private_subnets   
-  aws_vpc_id = module.vpc.vpc_id
-
+  subnet_ids         = module.vpc.private_subnets
+  transit_gateway_id = var.transit_gateway_id
+  vpc_id             = module.vpc.vpc_id
 }
-
 module "EC2" {
   AZcount = length(data.aws_availability_zones.available.names)
   source  = "./modules/compute"
