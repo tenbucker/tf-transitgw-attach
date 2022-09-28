@@ -14,7 +14,7 @@ data "aws_availability_zones" "available" {
 }
 
 locals {
-  prefix = "playground"
+  prefix = "playground-attach"
 }
 
   module "vpc" {
