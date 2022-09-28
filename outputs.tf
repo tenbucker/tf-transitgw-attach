@@ -10,14 +10,14 @@ output "subnet_id" {
   
 }
 
-output "aws_ec2_transit_gateway_vpc_attachment" {
+output "transit_gateway_vpc_attachment" {
   description = "tgw-attach-id"
-  value       = module.TGW.aws_ec2_transit_gateway_vpc_attachment.example.id
+  value       = module.TGW.transit_gateway_vpc_attachment
   
 }
 
-output "aws_ec2_transit_gateway_route_table" {
+output "transit_gateway_route_table" {
   description = "tgw-attach-id"
-  value       = module.TGW.aws_ec2_transit_gateway_route_table.example.id
+  value       = module.TGW.transit_gateway_route_table
   
 }
