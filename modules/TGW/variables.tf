@@ -1,7 +1,7 @@
 variable "transit_gateway_id" {
   description = "TGW ASN"
 }
-variable "aws_vpc_id" {
+variable "vpc_id" {
   description = "vpc id"
   type = string
 }
