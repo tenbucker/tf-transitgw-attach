@@ -43,7 +43,7 @@ variable "vpc_enable_nat_gateway" {
 
 variable "transit_gateway_id" {
   description = "TGW ID"
-  default     = "tgw-03f97b313b1e55825"
+  default     = "tgw-08cb51936d4f35858"
 }
 
 variable "vpc_tags" {
