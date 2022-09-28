@@ -13,7 +13,7 @@ variable "vpc_name" {
 variable "prefix" {
   description = "project prefix"
   type        = string
-  default     = "playground"
+  default     = "playground-attach"
 }
 
 
