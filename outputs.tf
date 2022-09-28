@@ -16,7 +16,7 @@ output "aws_ec2_transit_gateway_vpc_attachment" {
   
 }
 
-output "aws_ec2_transit_gateway_vpc_attachment" {
+output "aws_ec2_transit_gateway_route_table" {
   description = "tgw-attach-id"
   value       = module.aws_ec2_transit_gateway_route_table.example.id
   
