@@ -35,7 +35,7 @@ locals {
 }
 
 resource "aws_route" "rt" {
-  route_table_id            = module.vpc.public_route_table_ids[0]
+  route_table_id            = module.vpc.private_route_table_ids[0]
   destination_cidr_block    = "10.0.0.0/8"
   transit_gateway_id = var.transit_gateway_id
 #  depends_on                = [aws_route_table.testing]
